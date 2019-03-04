@@ -1,0 +1,124 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            44:0f:e5:37:77:70:e3:2b:97:96:07:36:7c:94:05:ba:e4:3d:2e:56
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = US, ST = Oregon, L = Portland, O = Kubernetes, OU = CA, CN = Kubernetes
+        Validity
+            Not Before: Feb 18 21:37:00 2019 GMT
+            Not After : Feb 18 21:37:00 2020 GMT
+        Subject: C = US, ST = Oregon, L = Portland, O = Kubernetes, OU = Kubernetes The Hard Way, CN = service-accounts
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:bd:1b:18:c8:67:06:0e:2e:77:70:a7:ed:c4:77:
+                    ac:99:a3:7b:01:27:81:7b:8c:75:e3:1d:2d:88:01:
+                    27:c5:39:64:2c:75:fc:5a:01:15:3b:57:3e:3e:2b:
+                    36:49:6a:ed:d3:58:26:0d:53:a4:53:b0:63:63:94:
+                    d1:b7:61:3c:d4:19:82:e0:2f:02:03:81:1c:8b:f0:
+                    ab:d1:1e:7d:f8:66:1f:b5:9c:2f:92:99:70:a1:da:
+                    8e:a0:43:70:72:5e:71:ba:48:eb:f6:6c:19:b1:b8:
+                    12:45:e3:2e:d4:44:ba:7d:4f:e2:16:63:b6:6e:24:
+                    28:b6:5b:4a:0f:4f:65:13:4c:63:44:42:b4:c6:dc:
+                    4b:39:fe:86:35:24:46:58:ef:c3:1c:40:86:d1:17:
+                    c2:00:2c:57:d7:db:19:31:45:7a:9e:39:6c:31:04:
+                    7f:20:4a:7a:62:b9:b1:9b:f0:4c:8a:5a:93:4f:98:
+                    77:3e:ea:33:23:ea:e1:9c:8b:04:e8:0f:45:df:a0:
+                    3d:07:db:5b:6a:5b:0a:a4:12:e2:eb:64:27:b6:a2:
+                    86:21:3b:aa:14:ec:a9:82:12:53:c6:2f:4b:9e:54:
+                    08:41:bc:6c:49:a1:23:0b:9a:37:26:8f:a4:a7:33:
+                    50:98:28:19:26:ce:ee:ee:27:1f:84:73:e8:a3:a0:
+                    3c:b7
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                E9:82:8E:56:7F:85:F6:25:14:58:11:FD:A9:A4:31:8D:50:47:F8:24
+            X509v3 Authority Key Identifier: 
+                keyid:F7:7C:7C:7C:05:23:E9:6F:DD:26:B7:0D:F3:9F:D3:1C:93:A8:F5:CB
+
+    Signature Algorithm: sha256WithRSAEncryption
+         af:5c:7a:cb:8d:c5:c9:f6:e6:46:86:56:5f:e9:51:30:70:78:
+         1b:93:e6:ea:b1:4c:33:56:68:e8:67:16:54:f5:16:fa:33:71:
+         ea:45:36:48:f7:72:80:d7:4f:be:30:fb:85:5e:f0:c5:c0:f7:
+         a4:6e:de:ec:ab:47:c7:fd:bc:23:62:04:30:9f:90:5c:e9:a2:
+         d7:24:9a:4e:fd:c6:0d:0b:d1:cc:cb:ce:b9:57:54:36:2c:4a:
+         c2:bf:e6:9c:70:89:18:2f:4d:6f:5f:9a:e1:8a:41:8c:c5:1f:
+         13:58:a5:6a:bd:3a:0f:6d:76:8d:b1:8f:85:bb:d0:a9:7a:0b:
+         23:2b:1e:88:48:d2:99:6c:a1:c5:0c:3e:ad:ba:34:bc:19:12:
+         67:c8:dc:41:22:cd:06:e9:66:e0:f4:a0:96:e9:0c:7b:f6:a0:
+         8e:e9:f2:41:4a:91:76:ca:fe:b2:fe:b3:0d:e1:3c:cc:c7:b8:
+         47:12:9b:40:82:19:0b:3a:4f:34:96:07:f0:31:8b:85:63:60:
+         e3:93:5d:8b:1f:44:45:37:61:15:86:55:27:bc:3a:75:36:50:
+         92:ab:a5:1f:53:be:17:f4:36:9b:a1:da:fa:00:7e:a5:6a:2f:
+         82:71:0b:60:3c:05:55:81:1f:fa:ca:11:84:90:c5:1d:b0:78:
+         a8:a2:39:65
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            44:0f:e5:37:77:70:e3:2b:97:96:07:36:7c:94:05:ba:e4:3d:2e:56
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = US, ST = Oregon, L = Portland, O = Kubernetes, OU = CA, CN = Kubernetes
+        Validity
+            Not Before: Feb 18 21:37:00 2019 GMT
+            Not After : Feb 18 21:37:00 2020 GMT
+        Subject: C = US, ST = Oregon, L = Portland, O = Kubernetes, OU = Kubernetes The Hard Way, CN = service-accounts
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:bd:1b:18:c8:67:06:0e:2e:77:70:a7:ed:c4:77:
+                    ac:99:a3:7b:01:27:81:7b:8c:75:e3:1d:2d:88:01:
+                    27:c5:39:64:2c:75:fc:5a:01:15:3b:57:3e:3e:2b:
+                    36:49:6a:ed:d3:58:26:0d:53:a4:53:b0:63:63:94:
+                    d1:b7:61:3c:d4:19:82:e0:2f:02:03:81:1c:8b:f0:
+                    ab:d1:1e:7d:f8:66:1f:b5:9c:2f:92:99:70:a1:da:
+                    8e:a0:43:70:72:5e:71:ba:48:eb:f6:6c:19:b1:b8:
+                    12:45:e3:2e:d4:44:ba:7d:4f:e2:16:63:b6:6e:24:
+                    28:b6:5b:4a:0f:4f:65:13:4c:63:44:42:b4:c6:dc:
+                    4b:39:fe:86:35:24:46:58:ef:c3:1c:40:86:d1:17:
+                    c2:00:2c:57:d7:db:19:31:45:7a:9e:39:6c:31:04:
+                    7f:20:4a:7a:62:b9:b1:9b:f0:4c:8a:5a:93:4f:98:
+                    77:3e:ea:33:23:ea:e1:9c:8b:04:e8:0f:45:df:a0:
+                    3d:07:db:5b:6a:5b:0a:a4:12:e2:eb:64:27:b6:a2:
+                    86:21:3b:aa:14:ec:a9:82:12:53:c6:2f:4b:9e:54:
+                    08:41:bc:6c:49:a1:23:0b:9a:37:26:8f:a4:a7:33:
+                    50:98:28:19:26:ce:ee:ee:27:1f:84:73:e8:a3:a0:
+                    3c:b7
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                E9:82:8E:56:7F:85:F6:25:14:58:11:FD:A9:A4:31:8D:50:47:F8:24
+            X509v3 Authority Key Identifier: 
+                keyid:F7:7C:7C:7C:05:23:E9:6F:DD:26:B7:0D:F3:9F:D3:1C:93:A8:F5:CB
+
+    Signature Algorithm: sha256WithRSAEncryption
+         af:5c:7a:cb:8d:c5:c9:f6:e6:46:86:56:5f:e9:51:30:70:78:
+         1b:93:e6:ea:b1:4c:33:56:68:e8:67:16:54:f5:16:fa:33:71:
+         ea:45:36:48:f7:72:80:d7:4f:be:30:fb:85:5e:f0:c5:c0:f7:
+         a4:6e:de:ec:ab:47:c7:fd:bc:23:62:04:30:9f:90:5c:e9:a2:
+         d7:24:9a:4e:fd:c6:0d:0b:d1:cc:cb:ce:b9:57:54:36:2c:4a:
+         c2:bf:e6:9c:70:89:18:2f:4d:6f:5f:9a:e1:8a:41:8c:c5:1f:
+         13:58:a5:6a:bd:3a:0f:6d:76:8d:b1:8f:85:bb:d0:a9:7a:0b:
+         23:2b:1e:88:48:d2:99:6c:a1:c5:0c:3e:ad:ba:34:bc:19:12:
+         67:c8:dc:41:22:cd:06:e9:66:e0:f4:a0:96:e9:0c:7b:f6:a0:
+         8e:e9:f2:41:4a:91:76:ca:fe:b2:fe:b3:0d:e1:3c:cc:c7:b8:
+         47:12:9b:40:82:19:0b:3a:4f:34:96:07:f0:31:8b:85:63:60:
+         e3:93:5d:8b:1f:44:45:37:61:15:86:55:27:bc:3a:75:36:50:
+         92:ab:a5:1f:53:be:17:f4:36:9b:a1:da:fa:00:7e:a5:6a:2f:
+         82:71:0b:60:3c:05:55:81:1f:fa:ca:11:84:90:c5:1d:b0:78:
+         a8:a2:39:65

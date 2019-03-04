@@ -1,0 +1,10 @@
+#Toextract Public key from service-account-key.pem
+
+openssl rsa -in service-account-key.pem -pubout
+
+#Toextract Private key from service-account-key.pem
+
+#Toextract Public key from service-account.pem
+openssl x509 -in service-account.pem -noout -pubkey
+
+#Toextract Private key from service-account.pem
