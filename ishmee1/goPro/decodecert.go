@@ -8,7 +8,9 @@ import(
     "crypto/rsa"
     "crypto/x509"
      b64 "encoding/base64"
-//     "math/big"
+//     "strconv"
+//     "encoding/binary"
+     "math/big"
 )
 
 func main(){
@@ -17,19 +19,14 @@ func main(){
         log.Fatal(err)
     }
 
-
     block, _ := pem.Decode([]byte(rootPEM))
     var cert* x509.Certificate
     cert, _ = x509.ParseCertificate(block.Bytes)
     rsaPublicKey := cert.PublicKey.(*rsa.PublicKey)
-    uEnc := b64.URLEncoding.EncodeToString([]byte((rsaPublicKey.N).Bytes()))
-    uEnce := b64.URLEncoding.EncodeToString([]byte([]byte(rsaPublicKey.E)))
-//    fmt.Println(uEnc)
-//    fmt.Println(cert)
-//    fmt.Println(rsaPublicKey.N)
-//    fmt.Println(rsaPublicKey.E)
-//	uEnc := b64.URLEncoding.EncodeToString([]byte(str))
-	fmt.Println(uEnc)
-	fmt.Println("Hello")
-	fmt.Println(uEnce)
+    exponent := big.NewInt(int64(rsaPublicKey.E)) 
+//    n := b64.URLEncoding.EncodeToString([]byte((rsaPublicKey.N).Bytes()))
+    n := b64.RawURLEncoding.EncodeToString([]byte((rsaPublicKey.N).Bytes()))
+    e := b64.RawURLEncoding.EncodeToString([]byte((exponent).Bytes()))
+    fmt.Println("n:  ", n)
+    fmt.Println("e:  ", e)
     }
